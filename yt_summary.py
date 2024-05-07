@@ -46,7 +46,7 @@ def main():
     # Expander for app details
     with st.expander("About the App"):
         st.write("This app allows you to summarize while watching a YouTube video.")
-        st.write("Enter a YouTube URL in the input box below and click 'Submit' to start. This app is built by AI Anytime.")
+        st.write("Enter a YouTube URL in the input box below and click 'Submit' to start.")
 
     # Input box for YouTube URL
     youtube_url = st.text_input("Enter YouTube URL")
